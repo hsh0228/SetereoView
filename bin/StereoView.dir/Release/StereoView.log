@@ -1,0 +1,30 @@
+﻿生成启动时间为 2018/6/23 9:17:37。
+     1>项目“E:\SV2\bin\StereoView.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\SV2\bin /IE:\SV2 /IE:\SV2\bin\StereoView_autogen\include /I"D:\Program Files\opencv\build\include" /I"D:\Program Files\opencv\build\include\opencv" /IC:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\include /IC:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\include\QtWidgets /IC:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\include\QtGui /IC:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\include\QtCore /I"C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\mkspecs\win32-msvc2013" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D QT_NO_DEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"StereoView.dir\Release\\" /Fd"StereoView.dir\Release\vc120.pdb" /Gd /TP /errorReport:prompt E:\SV2\StereoView.cpp E:\SV2\bin\StereoView_autogen\mocs_compilation.cpp E:\SV2\main.cpp
+         StereoView.cpp
+     1>e:\sv2\stereoview.h(11): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>D:\Program Files\opencv\build\include\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         mocs_compilation.cpp
+     1>e:\sv2\bin\stereoview_autogen\ewiega46ww\../../../StereoView.h(11): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>D:\Program Files\opencv\build\include\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cpp
+     1>e:\sv2\stereoview.h(11): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>d:\program files\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : 参见“fopen”的声明
+     1>D:\Program Files\opencv\build\include\opencv2/gpu/gpu.hpp(1821): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\SV2\bin\Release\StereoView.exe" /INCREMENTAL:NO /NOLOGO C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\Qt5Widgets.lib C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\Qt5Gui.lib "D:\Program Files\opencv\build\x64\vc12\lib\opencv_videostab2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_ts2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_superres2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_stitching2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_contrib2413.lib" C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\Qt5Core.lib "D:\Program Files\opencv\build\x64\vc12\lib\opencv_nonfree2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_ocl2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_gpu2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_photo2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_objdetect2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_legacy2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_video2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_ml2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_calib3d2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_features2d2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_highgui2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_imgproc2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_flann2413.lib" "D:\Program Files\opencv\build\x64\vc12\lib\opencv_core2413.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:/SV2/bin/Release/StereoView.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SV2/bin/Release/StereoView.lib" /MACHINE:X64  /machine:x64 StereoView.dir\Release\main.obj
+         StereoView.dir\Release\StereoView.obj
+         StereoView.dir\Release\mocs_compilation.obj
+         StereoView.vcxproj -> E:\SV2\bin\Release\StereoView.exe
+     1>已完成生成项目“E:\SV2\bin\StereoView.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.23

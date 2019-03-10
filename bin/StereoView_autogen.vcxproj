@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{86FD400E-0612-3385-90EC-792CF340ED04}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>StereoView_autogen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SV2\bin;E:\SV2;D:\Program Files\opencv\build\include;D:\Program Files\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SV2\bin;E:\SV2;D:\Program Files\opencv\build\include;D:\Program Files\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SV2\bin;E:\SV2;D:\Program Files\opencv\build\include;D:\Program Files\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SV2\bin;E:\SV2;D:\Program Files\opencv\build\include;D:\Program Files\opencv\build\include\opencv;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SV2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/SV2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/SV2 -BE:/SV2/bin --check-stamp-file E:/SV2/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/SV2/CMakeLists.txt;E:\SV2\CMakeLists.txt;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Program Files\opencv\build\OpenCVConfig-version.cmake;D:\Program Files\opencv\build\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;E:\SV2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\SV2\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/SV2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/SV2 -BE:/SV2/bin --check-stamp-file E:/SV2/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/SV2/CMakeLists.txt;E:\SV2\CMakeLists.txt;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Program Files\opencv\build\OpenCVConfig-version.cmake;D:\Program Files\opencv\build\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;E:\SV2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\SV2\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/SV2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/SV2 -BE:/SV2/bin --check-stamp-file E:/SV2/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/SV2/CMakeLists.txt;E:\SV2\CMakeLists.txt;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Program Files\opencv\build\OpenCVConfig-version.cmake;D:\Program Files\opencv\build\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;E:\SV2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\SV2\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/SV2/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -HE:/SV2 -BE:/SV2/bin --check-stamp-file E:/SV2/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/SV2/CMakeLists.txt;E:\SV2\CMakeLists.txt;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInitialize.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCCompiler.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeCXXCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\WindowsPaths.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;E:\SV2\bin\CMakeFiles\3.9.0-rc5\CMakeRCCompiler.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeCommonLanguageInclude.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QDDSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJp2Plugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QMngPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\CMakeParseArguments.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\Program Files\opencv\build\OpenCVConfig-version.cmake;D:\Program Files\opencv\build\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVConfig.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-debug.cmake;D:\Program Files\opencv\build\x64\vc12\lib\OpenCVModules-release.cmake;D:\Program Files\CMake\share\cmake-3.9\Modules\AutogenInfo.cmake.in;E:\SV2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\SV2\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SV2\bin\CMakeFiles\a7be10ffa0964a0066ee2aca78315445\StereoView_autogen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Automatic MOC, UIC and RCC for target StereoView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd E:\SV2\bin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/SV2/bin/CMakeFiles/StereoView_autogen.dir Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:/SV2/bin/CMakeFiles/a7be10ffa0964a0066ee2aca78315445/StereoView_autogen.rule;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Widgetsd.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Cored.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Guid.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_videostab2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_video2413d.dll;D:\Program Files\opencv\build\x64\vc12\lib\opencv_ts2413d.lib;D:\Program Files\opencv\build\x64\vc12\bin\opencv_superres2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_stitching2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_photo2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ocl2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_objdetect2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_nonfree2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ml2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_legacy2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_imgproc2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_highgui2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_gpu2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_flann2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_features2d2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_core2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_contrib2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_calib3d2413d.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\SV2\bin\CMakeFiles\StereoView_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Automatic MOC, UIC and RCC for target StereoView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd E:\SV2\bin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/SV2/bin/CMakeFiles/StereoView_autogen.dir Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:/SV2/bin/CMakeFiles/a7be10ffa0964a0066ee2aca78315445/StereoView_autogen.rule;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Widgets.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Core.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Gui.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_videostab2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_video2413.dll;D:\Program Files\opencv\build\x64\vc12\lib\opencv_ts2413.lib;D:\Program Files\opencv\build\x64\vc12\bin\opencv_superres2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_stitching2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_photo2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ocl2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_objdetect2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_nonfree2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ml2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_legacy2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_imgproc2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_highgui2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_gpu2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_flann2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_features2d2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_core2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_contrib2413.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_calib3d2413.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\SV2\bin\CMakeFiles\StereoView_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Automatic MOC, UIC and RCC for target StereoView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd E:\SV2\bin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/SV2/bin/CMakeFiles/StereoView_autogen.dir MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:/SV2/bin/CMakeFiles/a7be10ffa0964a0066ee2aca78315445/StereoView_autogen.rule;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Widgets.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Core.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Gui.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_videostab2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_video2413d.dll;D:\Program Files\opencv\build\x64\vc12\lib\opencv_ts2413d.lib;D:\Program Files\opencv\build\x64\vc12\bin\opencv_superres2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_stitching2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_photo2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ocl2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_objdetect2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_nonfree2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ml2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_legacy2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_imgproc2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_highgui2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_gpu2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_flann2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_features2d2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_core2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_contrib2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_calib3d2413d.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\SV2\bin\CMakeFiles\StereoView_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Automatic MOC, UIC and RCC for target StereoView</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd E:\SV2\bin
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/SV2/bin/CMakeFiles/StereoView_autogen.dir RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:/SV2/bin/CMakeFiles/a7be10ffa0964a0066ee2aca78315445/StereoView_autogen.rule;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Widgets.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Core.dll;C:\Qt\Qt5.4.2\5.4\msvc2013_64_opengl\bin\Qt5Gui.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_videostab2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_video2413d.dll;D:\Program Files\opencv\build\x64\vc12\lib\opencv_ts2413d.lib;D:\Program Files\opencv\build\x64\vc12\bin\opencv_superres2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_stitching2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_photo2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ocl2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_objdetect2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_nonfree2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_ml2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_legacy2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_imgproc2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_highgui2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_gpu2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_flann2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_features2d2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_core2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_contrib2413d.dll;D:\Program Files\opencv\build\x64\vc12\bin\opencv_calib3d2413d.dll;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\SV2\bin\CMakeFiles\StereoView_autogen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\SV2\bin\CMakeFiles\StereoView_autogen" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\SV2\bin\ZERO_CHECK.vcxproj">
+      <Project>{F85AFBBA-9868-3589-AB42-DBA168898461}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

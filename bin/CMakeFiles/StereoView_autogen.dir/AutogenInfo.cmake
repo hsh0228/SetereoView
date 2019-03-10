@@ -1,0 +1,35 @@
+# Directories and files
+set(AM_CMAKE_BINARY_DIR "E:/SV2/bin/")
+set(AM_CMAKE_SOURCE_DIR "E:/SV2/")
+set(AM_CMAKE_CURRENT_SOURCE_DIR "E:/SV2/")
+set(AM_CMAKE_CURRENT_BINARY_DIR "E:/SV2/bin/")
+set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
+set(AM_BUILD_DIR "E:/SV2/bin/StereoView_autogen")
+set(AM_SOURCES "E:/SV2/main.cpp;E:/SV2/StereoView.cpp")
+set(AM_HEADERS "E:/SV2/StereoView.h")
+# Qt environment
+set(AM_QT_VERSION_MAJOR "5")
+set(AM_QT_MOC_EXECUTABLE "C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/bin/moc.exe")
+set(AM_QT_UIC_EXECUTABLE "C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/bin/uic.exe")
+set(AM_QT_RCC_EXECUTABLE "C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/bin/rcc.exe")
+# MOC settings
+set(AM_MOC_SKIP "E:/SV2/bin/StereoView_autogen/mocs_compilation.cpp")
+set(AM_MOC_DEFINITIONS "QT_CORE_LIB;QT_GUI_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB")
+set(AM_MOC_INCLUDES "E:/SV2/bin;E:/SV2;E:/SV2/bin/StereoView_autogen/include;D:/Program Files/opencv/build/include;D:/Program Files/opencv/build/include/opencv;C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/include;C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/include/QtWidgets;C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/include/QtGui;C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/include/QtCore;C:/Qt/Qt5.4.2/5.4/msvc2013_64_opengl/mkspecs/win32-msvc2013")
+set(AM_MOC_OPTIONS "")
+set(AM_MOC_RELAXED_MODE "FALSE")
+set(AM_MOC_DEPEND_FILTERS "")
+set(AM_MOC_PREDEFS_CMD )
+# UIC settings
+set(AM_UIC_SKIP "E:/SV2/bin/StereoView_autogen/mocs_compilation.cpp")
+set(AM_UIC_TARGET_OPTIONS "")
+set(AM_UIC_OPTIONS_FILES "")
+set(AM_UIC_OPTIONS_OPTIONS "")
+set(AM_UIC_SEARCH_PATHS "")
+# RCC settings
+set(AM_RCC_SOURCES "" )
+set(AM_RCC_INPUTS "")
+set(AM_RCC_OPTIONS_FILES "")
+set(AM_RCC_OPTIONS_OPTIONS "")
+# Configuration specific options
+set(AM_MOC_DEFINITIONS_Debug "QT_CORE_LIB;QT_GUI_LIB;QT_WIDGETS_LIB")
